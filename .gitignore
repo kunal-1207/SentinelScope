@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.swp
+*~
+.pytest_cache/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backend specific
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/.env
+backend/.env.local
+
+# Frontend specific
+frontend/.next/
+frontend/node_modules/
+frontend/out/
+frontend/.env
+frontend/.env.local
+frontend/.nyc_output
+frontend/coverage/
+
+# Logs
+*.log
+logs/
+
+# Environment specific
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# Database
+*.db
+*.db-journal
+
+# Secrets
+secrets/
+credentials.json
+*.key
+*.pem
